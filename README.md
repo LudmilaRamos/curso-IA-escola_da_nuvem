@@ -1,41 +1,50 @@
-# Curso IA - Escola da Nuvem
+# 🚀 Curso IA - Escola da Nuvem
 
-Repositório com as atividades práticas do curso de **Inteligência Artificial** da Escola da Nuvem.  
-As atividades foram desenvolvidas em **Python** e organizadas por número de atividade, com exercícios que vão de conceitos básicos até aplicações com menu interativo.
+Bem-vindo ao repositório das **Atividades Práticas de Python** do curso de **Inteligência Artificial** da Escola da Nuvem!  
+Aqui você encontrará exercícios organizados por número de atividade, do básico ao avançado, incluindo **menus interativos** para facilitar a execução.
 
-## Estrutura do Repositório
+---
 
-- **Atividade_01**  
-  Contém exercícios iniciais de Python:
-  1. Programa de saudação (`Olá, mundo!`)
-  2. Calculadora de soma
-  3. Calculadora de volume de caixa retangular
-  4. Calculadora de preço total de um produto  
-  [Código](Atividade_01/)
+## 🗂 Estrutura das Atividades
 
-- **Atividade_02**  
-  Contém exercícios intermediários de Python:
-  1. Conversor de Moeda (Reais → Dólar/Euro)
-  2. Calculadora de Desconto
-  3. Calculadora de Média Escolar
-  4. Calculadora de Consumo de Combustível  
-  [Código](Atividade_02/)
+### 1️⃣ Atividade_01
+**Exercícios básicos de Python:**
+- 👋 Programa de Saudação (`Olá, mundo!`)
+- ➕ Calculadora de Soma
+- 📦 Calculadora de Volume de Caixa Retangular
+- 💰 Calculadora de Preço Total de um Produto  
+🔗 [Abrir pasta](Atividade_01/)
 
-- **Atividade_03**  
-  Contém exercícios avançados com **menu interativo**:
-  1. Classificador de Idade
-  2. Calculadora de IMC
-  3. Conversor de Temperatura
-  4. Verificador de Ano Bissexto  
-  [Código](Atividade_03/)
+### 2️⃣ Atividade_02
+**Exercícios intermediários de Python:**
+- 💵 Conversor de Moeda (Reais → Dólar/Euro)
+- 🏷 Calculadora de Desconto
+- 📝 Calculadora de Média Escolar
+- ⛽ Calculadora de Consumo de Combustível  
+🔗 [Abrir pasta](Atividade_02/)
 
-- **Atividade_04**  
-  Contém exercícios adicionais com **menu interativo**:
-  1. Calculadora básica (+, -, *, /)
-  2. Registro de notas e cálculo da média
-  3. Verificador de segurança de senha (mínimo 8 caracteres e número)
-  4. Classificação de números pares e ímpares  
-  [Código](Atividade_04/)
+### 3️⃣ Atividade_03
+**Exercícios avançados com menu interativo:**
+- 👶 Classificador de Idade
+- ⚖ Calculadora de IMC
+- 🌡 Conversor de Temperatura
+- 📅 Verificador de Ano Bissexto  
+🔗 [Abrir pasta](Atividade_03/)
 
+### 4️⃣ Atividade_04
+**Exercícios adicionais com menu interativo:**
+- 🧮 Calculadora básica (+, -, *, /)
+- 🏫 Registro de notas e cálculo da média
+- 🔒 Verificador de segurança de senha (mínimo 8 caracteres e número)
+- 🔢 Classificação de números pares e ímpares  
+🔗 [Abrir pasta](Atividade_04/)
 
+---
+
+## ▶ Como executar
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/LudmilaRamos/curso-IA-escola_da_nuvem.git
 
