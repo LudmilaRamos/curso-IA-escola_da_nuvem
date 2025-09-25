@@ -1,0 +1,120 @@
+"""
+Atividade Prática 04 - Exercícios Python
+Descrição: Este programa contém quatro exercícios:
+1. Calculadora básica
+2. Registro de notas e cálculo da média
+3. Verificador de segurança de senha
+4. Classificação de números pares e ímpares
+
+O programa possui um menu interativo que permite ao usuário escolher qual exercício deseja executar.
+
+"""
+
+def calculadora_basica():
+    """Realiza operações básicas (+, -, *, /)."""
+    try:
+        a = float(input("Digite o primeiro número: "))
+        b = float(input("Digite o segundo número: "))
+        operador = input("Escolha a operação (+, -, *, /): ")
+
+        if operador == "+":
+            resultado = a + b
+        elif operador == "-":
+            resultado = a - b
+        elif operador == "*":
+            resultado = a * b
+        elif operador == "/":
+            if b != 0:
+                resultado = a / b
+            else:
+                print("Erro: Divisão por zero!")
+                return
+        else:
+            print("Operador inválido!")
+            return
+
+        print(f"O resultado de {a} {operador} {b} é: {resultado}\n")
+    except ValueError:
+        print("Entrada inválida! Digite apenas números.\n")
+
+
+def registro_notas():
+    """Registra notas de alunos e calcula a média da turma."""
+    try:
+        quantidade = int(input("Quantos alunos na turma? "))
+        notas = []
+        for i in range(quantidade):
+            nota = float(input(f"Digite a nota do aluno {i+1}: "))
+            notas.append(nota)
+        media = sum(notas) / len(notas)
+        print(f"A média da turma é: {media:.2f}\n")
+    except ValueError:
+        print("Entrada inválida! Digite apenas números.\n")
+
+
+def verificador_senha():
+    """Verifica se a senha atende aos critérios de segurança."""
+    senha = input("Digite sua senha: ")
+    tem_numero = any(char.isdigit() for char in senha)
+
+    if len(senha) >= 8 and tem_numero:
+        print("Senha segura ✅\n")
+    else:
+        print("Senha insegura! Deve ter pelo menos 8 caracteres e conter ao menos um número.\n")
+
+
+def classificador_pares_impares():
+    """Classifica números digitados como pares ou ímpares e contabiliza quantos de cada tipo foram inseridos."""
+    pares = 0
+    impares = 0
+
+    print("Digite os números um por vez. Digite 'sair' para encerrar.")
+
+    while True:
+        entrada = input("Digite um número: ")
+        if entrada.lower() == "sair":
+            break
+        try:
+            n = int(entrada)
+            if n % 2 == 0:
+                print(f"{n} é par ✅")
+                pares += 1
+            else:
+                print(f"{n} é ímpar ✅")
+                impares += 1
+        except ValueError:
+            print("Entrada inválida! Digite apenas números ou 'sair' para encerrar.")
+
+    print(f"\nTotal de números pares: {pares}")
+    print(f"Total de números ímpares: {impares}\n")
+
+
+def menu():
+    """Menu principal para escolher o exercício."""
+    while True:
+        print("Escolha uma opção:")
+        print("1 - Calculadora básica")
+        print("2 - Registro de notas e cálculo da média")
+        print("3 - Verificador de segurança de senha")
+        print("4 - Classificação de números pares e ímpares")
+        print("0 - Sair")
+        opcao = input("Digite o número da opção: ")
+
+        if opcao == "1":
+            calculadora_basica()
+        elif opcao == "2":
+            registro_notas()
+        elif opcao == "3":
+            verificador_senha()
+        elif opcao == "4":
+            classificador_pares_impares()
+        elif opcao == "0":
+            print("Saindo do programa. Até mais!")
+            break
+        else:
+            print("Opção inválida. Tente novamente.\n")
+
+
+if __name__ == "__main__":
+    menu()
+
