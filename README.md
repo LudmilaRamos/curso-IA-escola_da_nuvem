@@ -1,7 +1,7 @@
 # 🚀 Curso IA - Escola da Nuvem
 
-Bem-vindo ao repositório das **Atividades Práticas de Python** do curso de **Inteligência Artificial** da Escola da Nuvem!  
-Aqui você encontrará exercícios organizados por número de atividade, do básico ao avançado, incluindo **menus interativos** para facilitar a execução.
+Repositório com as atividades práticas do curso de **Inteligência Artificial** da Escola da Nuvem.  
+As atividades foram desenvolvidas em **Python** e organizadas por número de atividade, com exercícios que vão de conceitos básicos até aplicações com menu interativo.
 
 ---
 
