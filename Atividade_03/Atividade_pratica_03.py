@@ -1,10 +1,13 @@
 """
-Atividade Prática 03 - Exercícios Python
-Descrição: Este programa contém quatro exercícios:
+Adicionada a pasta Atividade_03 contendo Atividade_03.py com quatro exercícios em Python:
+Este programa contém quatro exercícios:
 1. Classificador de Idade
 2. Calculadora de IMC
 3. Conversor de Temperatura
 4. Verificador de Ano Bissexto
+
+O programa possui um menu interativo que permite ao usuário escolher qual exercício deseja executar.
+
 """
 
 def classificador_idade():
